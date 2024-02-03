@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:
+}
+body{
+    background-color: #F6E5DC;
+}
+/* div{
+    border: 1px solid black;
+} */
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+
+.navlist ul{
+    display: flex;
+    list-style: none;
+}
+.navlist li, .profile{
+    padding: 40px 14px;
+
+}
+.navlist a{
+    color: inherit;
+    text-decoration: none;
+}
